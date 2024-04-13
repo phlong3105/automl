@@ -604,7 +604,7 @@ class Head(tf.keras.layers.Layer):
 class Model(tf.keras.Model):
   """A class implements tf.keras.Model.
 
-    Reference: https://arxiv.org/abs/1807.11626
+    References: https://arxiv.org/abs/1807.11626
   """
 
   def __init__(self, blocks_args=None, global_params=None, name=None):

@@ -14,8 +14,8 @@
 # ==============================================================================
 """AutoAugment and RandAugment policies for enhanced image preprocessing.
 
-AutoAugment Reference: https://arxiv.org/abs/1805.09501
-RandAugment Reference: https://arxiv.org/abs/1909.13719
+AutoAugment References: https://arxiv.org/abs/1805.09501
+RandAugment References: https://arxiv.org/abs/1909.13719
 """
 import inspect
 import math

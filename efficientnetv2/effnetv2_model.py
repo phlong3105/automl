@@ -499,7 +499,7 @@ class Head(tf.keras.layers.Layer):
 class EffNetV2Model(tf.keras.Model):
   """A class implements tf.keras.Model.
 
-    Reference: https://arxiv.org/abs/1807.11626
+    References: https://arxiv.org/abs/1807.11626
   """
 
   def __init__(self,

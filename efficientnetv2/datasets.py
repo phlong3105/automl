@@ -221,7 +221,7 @@ class ImageNetInput():
   def cutmix(self, image, label, mask):
     """Applies CutMix regularization to a batch of images and labels.
 
-    Reference: https://arxiv.org/pdf/1905.04899.pdf
+    References: https://arxiv.org/pdf/1905.04899.pdf
 
     Arguments:
       image: a Tensor of batched images.

@@ -31,7 +31,7 @@ def diou_nms(dets, iou_thresh=None):
   diou = iou - square of euclidian distance of box centers
      / square of diagonal of smallest enclosing bounding box
 
-  Reference: https://arxiv.org/pdf/1911.08287.pdf
+  References: https://arxiv.org/pdf/1911.08287.pdf
 
   Args:
     dets: detection with shape (num, 5) and format [x1, y1, x2, y2, score].
@@ -262,4 +262,3 @@ def per_class_nms(boxes, scores, classes, image_id, image_scale, num_classes,
   detections[:, 1:5] *= image_scale
 
   return detections
-

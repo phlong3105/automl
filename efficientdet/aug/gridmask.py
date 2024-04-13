@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-"""Grid Masking Augmentation Reference: https://arxiv.org/abs/2001.04086."""
+"""Grid Masking Augmentation References: https://arxiv.org/abs/2001.04086."""
 import math
 
 import tensorflow as tf
